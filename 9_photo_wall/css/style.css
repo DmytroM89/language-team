@@ -1,0 +1,319 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300&subset=latin,cyrillic);
+
+html body {
+font-size: 16px;
+margin: 0 auto;
+}
+ 
+html {
+position: relative;
+min-height: 100%;
+}
+
+body {
+margin: 0 0 304px;
+}
+
+#page {
+margin:0 auto;
+min-height:100%;
+max-width: 90%;
+}
+
+
+.navbar-brand {
+padding-top: 10px;
+padding-right: 0;
+margin-right: 0;
+margin-bottom: 10px;
+}
+
+.navbar-default {
+background-color: white;
+border-color: #e5e5e5;
+}
+   
+.navbar-default .navbar-nav > li > a {
+text-transform: uppercase;
+font-size: 0.875em;/*16/14*/
+
+font-family: open sans regular;
+padding-top: 20px;
+}
+
+.navbar-toggle {
+border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+background-color: #e57979;
+border-color: #e57979;
+}
+
+.navbar-default .navbar-toggle:hover>.icon-bar {
+background-color: #FFF;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #44232f;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #df5757;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #8217ba;
+}
+
+
+
+ul2 li2 a {
+color: #c9cccd;
+}
+
+ul2 li2 a:hover {
+color: white;
+text-decoration: none;
+}
+
+ul2 li2 {
+display: inline-block;
+font-family: Open Sans Regular;
+font-size: 18px;
+color: #44232f;
+margin-right: 40px;
+margin-top: 23px; 
+}
+
+#substrate-footer {
+height:304px;
+margin: 20px 0 0;
+}
+
+.footer1,.footer2 {
+position: absolute;
+left: 0;
+bottom: 0;
+height: 304px;
+width: 100%;
+}
+ 
+.footer1,.footer2 {
+margin: -54px auto;
+}
+
+
+.footer1 {
+margin-top: 0px;
+height: 228px;
+background-color: #273238;
+text-align: center;
+padding-top: 41px;
+padding-bottom: 70px;
+}
+
+.img1,.img2,.img3 {
+padding-right: 49px;
+}
+
+.footer2 {
+margin-top: 0px;
+height: 75px;
+background-color: #36474f;
+font-family: Roboto Light;
+font-size: 18px;
+text-align: center;
+color: #959c9f;
+padding-top: 30px;
+padding-bottom: 0px;
+}
+
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+
+.container {
+margin-top: 60px;
+}
+.container ul li {
+list-style: none;
+float: left;
+width: 16%;
+margin: 1% 2% 2% 1%;
+}
+
+
+
+#screenshot{
+position:absolute;
+background: white;
+padding:5px;
+display:none;
+color:#fff;
+width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------@media------*/
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+   
+ul2 li2 {
+display: inline-block;
+font-family: Open Sans Regular;
+font-size: 16px;
+color: #44232f;
+margin-top: 23px;
+margin-bottom: 30px;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .footer1 {
+height: auto;
+text-align: center;
+padding-top: 60px;
+}
+
+.img1,.img2,.img3 {
+padding-right: 39px;
+}
+
+.footer2 {
+font-size: 14px;
+padding-top: 15px;
+}
+
+
+ul2 li2 {
+display: block;
+font-family: Open Sans Regular;
+font-size: 16px;
+color: #44232f;
+margin-top: 23px;
+margin-bottom: 20px;
+}
+      
+nav {
+overflow: hidden;
+display: block;
+}
+.footer1,.footer2 {
+margin: -104px auto;
+}
+.container {
+margin-top: 30px;
+}
+}
+    
+@media only screen and (max-width: 460px) {
+
+ul li {
+display: block;
+float: none; 
+}  
+.footer1,.footer2 {
+margin: -104px auto;
+}
+}
+
+  
+    
+@media only screen and (max-width: 320px) {
+
+.footer1 {
+height: auto;
+text-align: center;
+}
+
+
+.img1,.img2,.img3 {
+padding-right: 35px;
+}
+    
+.footer2 {
+font-size: 0.875em; /*16px/14px*/
+padding-top: 15px;
+}
+
+
+ul2 li2 {
+display: block;
+font-family: Open Sans Regular;
+font-size: 0.875em; /*16px/14px*/
+color: #44232f;
+margin-top: 23px;
+margin-bottom: 20px;
+padding-bottom: 2px;
+}
+.footer1,.footer2 {
+margin: -144px auto;
+}
+}
+ 
+
+
+
+
+

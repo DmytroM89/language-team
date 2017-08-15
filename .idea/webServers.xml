@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8107dc50-2380-48b7-9264-92c3d775d7ce" name="language-team" url="http://languageteam.com.ua">
+        <fileTransfer host="languageteam.com.ua" port="21" rootFolder="/domains/languageteam.com.ua/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
