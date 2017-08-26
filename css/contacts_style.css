@@ -1,0 +1,89 @@
+#map {
+    position: static !important;
+    height: 100%;
+    float: left;
+}
+
+.contacts {
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(39, 50, 56, 0.8);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contacts address {
+    margin: 0;
+}
+
+.contacts address h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.contacts address .contacts-where {
+    margin-bottom: 15px;
+}
+
+.contacts address .contacts-call i {
+    font-size: 2em;
+}
+
+.contacts address .contacts-call a {
+    color: #6abefb;
+    transition: color .3s ease-out;
+}
+
+.contacts address .contacts-call a:hover {
+    color: #ff8482;
+    text-decoration: none;
+    transition: color .3s ease-out;
+}
+
+
+/*---------@media------*/
+
+@media (max-width: 1400px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 544px) and (max-width: 767px) {
+    .contacts {
+        font-size: 14px;
+    }
+
+    .contacts address h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 543px) {
+    .contacts {
+        font-size: 14px;
+    }
+
+    .contacts address h3 {
+        font-size: 24px;
+    }
+
+}

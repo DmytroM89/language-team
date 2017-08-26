@@ -1,0 +1,206 @@
+/*=============== Section Program Block ===============*/
+
+.program-block {
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.program-desc {
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.program-desc h4 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.program-desc p {
+    font-weight: 400;
+    padding: 0 15%;
+}
+
+.program-course {
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.btn-price {
+    display: inline-block;
+    width: 180px;
+    height: 65px;
+    line-height: 65px;
+    color: white;
+    background-color: #ff6c6c;
+    font-size: 17px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+a.btn-price {
+    text-decoration: none;
+}
+a.btn-price:hover {
+    background-color: #de3d3d;
+    color: white;
+}
+a.btn-price:visited {
+    color: white;
+}
+
+/*=============== Section Program Block First ===============*/
+
+.program-block-first {
+    background-image: url(../images/Rectangle-17.png);
+    margin-top: 60px;
+}
+
+/*=============== Section Info ===============*/
+
+.info {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 36px;
+    margin-bottom: 100px;
+}
+
+.info .container {
+    padding: 0 7%;
+}
+
+.info-bold {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/*=============== Section Program Block Second ===============*/
+
+.program-block-second {
+    background-image: url(../images/for-chi-prog.png);
+}
+
+/*=============== Section Program Block Third ===============*/
+
+.program-block-third {
+    background-image: url(../images/corpor-prog.png);
+    padding: 100px 0;
+}
+
+/*=============== Section Program Block Fourth ===============*/
+
+.program-block-fourth {
+    background-image: url(../images/il-prog.png);
+    padding: 100px 0;
+}
+
+/*=============== Section Program Block Fourth ===============*/
+
+.program-block-fifth {
+    background-image: url(../images/prog-other-l.png);
+    padding: 100px 0;
+}
+
+
+
+/*-------@media------*/
+/*@media (max-width: 1400px) {*/
+
+/*}*/
+
+/*@media (min-width: 1200px) and (max-width: 1399px) {*/
+
+/*}*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .program-desc p,
+    .program-desc h4 {
+        padding: 0 2%;
+        line-height: inherit;
+    }
+
+    .program-block-second,
+    .program-block-fourth {
+        background-position: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+    .program-block {
+        background-attachment: fixed;
+    }
+
+    .program-block-second,
+    .program-block-fourth {
+        background-position: right;
+    }
+}
+
+
+@media (min-width: 544px) and (max-width: 767px) {
+    .program-block {
+        background-attachment: fixed;
+    }
+
+    .program-block-second,
+    .program-block-fourth {
+        background-position: right;
+    }
+
+    .info {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    .info-bold {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 543px) {
+    .program-desc {
+        line-height: 30px;
+    }
+
+    .program-desc h4 {
+        line-height: 1.5;
+    }
+
+    .program-desc p {
+        padding: 0 2%;
+    }
+
+    .program-block {
+        background-attachment: fixed;
+    }
+
+    .program-block-second,
+    .program-block-fourth {
+        background-position: right;
+    }
+
+    .info {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    .info-bold {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+

@@ -1,0 +1,46 @@
+.table-english {
+    margin-top: 60px;
+}
+
+.price-title {
+    margin-bottom: 50px;
+}
+
+.price-title h1 {
+    font-size: 46px;
+}
+
+/*=================== Table ====================*/
+.table caption {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.table > thead > tr > th {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table > tbody {
+    margin-bottom: 20px;
+}
+
+.danger td {
+    font-weight: 600;
+}
+
+.table-other {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*---------@media------*/

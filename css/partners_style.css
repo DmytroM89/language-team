@@ -1,0 +1,55 @@
+/*============= Section Partner =============*/
+.partner {
+  text-align: left;
+}
+
+.partner-name {
+margin-bottom: 30px;
+}
+
+.partner-name h1 {
+  font-weight: 100;
+  line-height: 45px;
+  font-size: 2em;
+}
+
+.partner-name span {
+  font-weight: 400;
+}
+
+.partner-name h2 {
+  font-weight: 100;
+  font-size: 1.3em;
+  line-height: inherit;
+}
+
+.partner-slogan {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+
+/*============= Section Partner First =============*/
+.partner-first {
+  margin-top: 60px;
+}
+
+
+
+
+/*---------@media------*/
+
+@media (max-width: 543px) {
+  .partner {
+    text-align: center;
+  }
+
+  .partner-name h1 {
+    line-height: 30px;
+    font-size: 1.5em;
+  }
+
+  .partner-name h2 {
+    font-size: 1em;
+  }
+}
