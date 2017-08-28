@@ -266,7 +266,7 @@
 										<div class="program-box-title"><a href="../3_program_ed/program_ed.html#other">Другие
 											языки</a></div>
 										<div class="program-box-describe">
-											немецкий, французский,<br>испанский
+											немецкий по уровням
 										</div>
 									</div>
 								</div>
@@ -314,7 +314,7 @@
 							</p>
 						</div>
 						<div class="row">
-							<a href="../4_bonus_program/bonus.html" class="contant-button">подробнее</a>
+							<a href="bonus.html" class="contant-button">подробнее</a>
 						</div>
 					</div>
 					<div class="contant-box col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -329,7 +329,7 @@
 							</p>
 						</div>
 						<div class="row">
-							<a href="../4_bonus_program/bonus.html" class="contant-button">подробнее</a>
+							<a href="bonus.html" class="contant-button">подробнее</a>
 						</div>
 					</div>
 					<div class="contant-box col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -343,7 +343,7 @@
 							</p>
 						</div>
 						<div class="row">
-							<a href="../4_bonus_program/bonus.html" class="contant-button">подробнее</a>
+							<a href="bonus.html" class="contant-button">подробнее</a>
 						</div>
 					</div>
 				</div>

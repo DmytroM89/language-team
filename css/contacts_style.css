@@ -21,6 +21,7 @@
 
 .contacts address {
     margin: 0;
+    width: 50%;
 }
 
 .contacts address h3 {
@@ -52,24 +53,41 @@
 /*---------@media------*/
 
 @media (max-width: 1400px) {
-
+    .contacts address {
+        width: 90%;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-
+    .contacts address {
+        width: 90%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .contacts address {
+        width: 90%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .contacts {
+        font-size: 14px;
+    }
 
+    .contacts address {
+        width: 90%;
+    }
 }
 
 @media (min-width: 544px) and (max-width: 767px) {
     .contacts {
         font-size: 14px;
+        height: 370px;
+    }
+
+    .contacts address {
+        width: 100%;
     }
 
     .contacts address h3 {
@@ -80,6 +98,11 @@
 @media (max-width: 543px) {
     .contacts {
         font-size: 14px;
+        height: 370px;
+    }
+
+    .contacts address {
+        width: 100%;
     }
 
     .contacts address h3 {
