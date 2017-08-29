@@ -175,6 +175,65 @@
 			</div>
 		</section>
 
+		<!-- Section Advantages -->
+		<section class="advantages">
+			<div class="container-fluid">
+				<div class="title col-sm-12">
+					<h2>Наши преимущества</h2>
+				</div>
+				<div class="row">
+					<div class="advantage-item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div class="advantage-item--icon">
+							<i class="ion-person"></i>
+						</div>
+						<div class="advantage-item--text">
+							Индивидуальный подход к каждому студенту
+						</div>
+					</div>
+					<div class="advantage-item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div class="advantage-item--icon">
+							<i class="ion-university"></i>
+						</div>
+						<div class="advantage-item--text">
+							Обучение опытными преподавателями
+						</div>
+					</div>
+					<div class="advantage-item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div class="advantage-item--icon">
+							<i class="ion-compose"></i>
+						</div>
+						<div class="advantage-item--text">
+							Бесплатное тестирование уровня владения иностранным языком
+						</div>
+					</div>
+					<div class="advantage-item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div class="advantage-item--icon">
+							<i class="ion-arrow-graph-down-left"></i>
+						</div>
+						<div class="advantage-item--text">
+							Низкие цены по сравнению с другими клубами города
+						</div>
+					</div>
+					<div class="advantage-item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div class="advantage-item--icon">
+							<i class="ion-ribbon-b"></i>
+						</div>
+						<div class="advantage-item--text">
+							Занятия по эффективным методикам и иностранным учебным материалам
+						</div>
+					</div>
+					<div class="advantage-item col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div class="advantage-item--icon">
+							<i class="ion-coffee"></i>
+						</div>
+						<div class="advantage-item--text">
+							Бесплатные дополнительные услуги для наших клиентов
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- Section Program -->
 		<section class="program">
 			<div class="container-fluid">
@@ -185,10 +244,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-offset-1">
 						<div class="program-box">
 							<div class="row">
-								<div class="col-xs-4 col-sm-4 col-md-5 col-lg-5">
+								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
 									<img src="images/for-al.png" class="img-responsive">
 								</div>
-								<div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
 									<div class="program-box-text">
 										<div class="program-box-title"><a href="../3_program_ed/program_ed.html">Английский
 											для взрослых</a></div>
@@ -203,10 +262,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
 						<div class="program-box">
 							<div class="row">
-								<div class="col-xs-4 col-sm-4 col-md-5 col-lg-5">
+								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
 									<img src="images/corpor.png" class="img-responsive">
 								</div>
-								<div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
 									<div class="program-box-text">
 										<div class="program-box-title"><a href="../3_program_ed/program_ed.html#corpor_ed">Корпоративное
 											обучения</a></div>
@@ -221,10 +280,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-offset-1">
 						<div class="program-box">
 							<div class="row">
-								<div class="col-xs-4 col-sm-4 col-md-5 col-lg-5">
+								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
 									<img src="images/test.png" class="img-responsive">
 								</div>
-								<div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
 									<div class="program-box-text">
 										<div class="program-box-title"><a href="../3_program_ed/program_ed.html#exam">Подготовка
 											к ВНО,<br>IELTS, TOEFL, PET</a></div>
@@ -239,10 +298,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
 						<div class="program-box">
 							<div class="row">
-								<div class="col-xs-4 col-sm-4 col-md-5 col-lg-5">
+								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
 									<img src="images/for-children.png" class="img-responsive">
 								</div>
-								<div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
 									<div class="program-box-text">
 										<div class="program-box-title"><a href="../3_program_ed/program_ed.html#child">Английский
 											для детей</a></div>
@@ -258,10 +317,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-offset-1">
 						<div class="program-box">
 							<div class="row">
-								<div class="col-xs-4 col-sm-4 col-md-5 col-lg-5">
+								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
 									<img src="images/other-lang.png" class="img-responsive">
 								</div>
-								<div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
 									<div class="program-box-text">
 										<div class="program-box-title"><a href="../3_program_ed/program_ed.html#other">Другие
 											языки</a></div>
@@ -276,10 +335,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
 						<div class="program-box">
 							<div class="row">
-								<div class="col-xs-4 col-sm-4 col-md-5 col-lg-5">
+								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
 									<img src="images/summer.png" class="img-responsive">
 								</div>
-								<div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
 									<div class="program-box-text">
 										<div class="program-box-title"><a href="../4_bonus_program/bonus.html#summer">Летние
 											программы</a></div>

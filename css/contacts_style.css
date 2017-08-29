@@ -73,6 +73,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .contacts {
         font-size: 14px;
+        height: 255px;
     }
 
     .contacts address {
@@ -97,8 +98,8 @@
 
 @media (max-width: 543px) {
     .contacts {
-        font-size: 14px;
-        height: 370px;
+        font-size: 12px;
+        height: 290px;
     }
 
     .contacts address {
@@ -106,7 +107,7 @@
     }
 
     .contacts address h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
 }

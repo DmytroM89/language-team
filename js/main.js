@@ -94,4 +94,5 @@ $(document).ready(function(){
 		$('.special-offer').modal('show')
 	}
 	setTimeout(specialOffer, 5000);
+
 });
